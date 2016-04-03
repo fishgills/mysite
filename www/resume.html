@@ -79,9 +79,8 @@
         #story {
             font-size: 18px;
             line-height: 30px;
-            width: 440px;
+            width: 620px;
             float: left;
-            padding-right: 90px;
         }
 
         #story ul li {
@@ -105,7 +104,7 @@
             width: 230px;
             float: right;
             padding-right: 0;
-            padding-top: 96px;
+            padding-top: 10px;
             list-style-type: none;
             line-height: 20px;
         }
@@ -181,7 +180,7 @@
         }
 
         .section .description {
-            width: 510px;
+            width: 530px;
         }
 
         body.small {
@@ -255,14 +254,17 @@
     <div id="story">
         <h1>Charlie Davis</h1>
         <h2>Web Development Guru</h2>
-        <p>Web focused engineer with an emphasis on object-oriented design, clear and efficient algorithms, and
-            well-crafted code.</p>
-        <p>Demonstrated knack for:</p>
+        <p>I am a customer-centric architect who cares about user experience. I express my passion by architecting
+            products that are meaningful and easy-to-use to our customers. I am also a team lead who cares about my team
+            and our code. I emphasize on object-oriented design, write clear and efficient algorithms, and
+            mentor anyone who wants to learn.</p>
+        <p>I have demonstrated a knack for:</p>
         <ul>
             <li>Inventing fun and useful tools</li>
             <li>Finding simple solutions to complex problems</li>
             <li>Articulating clear explanations</li>
             <li>Engendering cooperation and enthusiasm</li>
+            <li>Sharing knowledge and teaching others</li>
         </ul>
     </div>
     <ul id="contact">
@@ -275,160 +277,141 @@
 <div class="section">
     <h2>Experience</h2>
     <div class="item">
-        <h3>Mimosa, Inc</h3>
+        <h3>Mimosa, Inc.</h3>
         <h4>UI Tech Lead</h4>
-        <div class="date">2014 - Present</div>
-        <p>Hardware Projects:</p>
-        <ul>
-            <li>Sole UI/JavaScript developer for all hardware products</li>
-            <li>Maintain custom JavaScript framework using jQuery/Bootstrap for legacy products</li>
-            <li>Lead UI architecture discussions for every new hardware product</li>
-            </li>
-            <li>Major Architect for Flagship product
-                <ul>
-                    <li>Worked with hardware architect to design hardware product from scratch</li>
-                    <li>Wrote UI leveraging AngularJS, SocketIO and Bootstrap</li>
-                    <li>Use Gulp with Bamboo to generate production builds</li>
-                    <li>Wrote backend server in Python using the Python Flask server
-                        <ul>
-                            <li>Server connects with company's custom DBUS IPC</li>
-                            <li>Flask server uses a SocketIO module to emulate a NodeJS SocketIO backend</li>
-                            <li>Interfaces with RRD to pull historical data</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li>Created a wireless spectrum analyzer using JavaScript canvas that is used across all products
-                <ul>
-                    <li>New spectrum analyzer prototyped using ThreeJS in WebGL</li>
-                </ul>
-            </li>
-            <li>Corporate Website
-                <ul>
-                    <li>Created from scratch in CMS Made Simple</li>
-                    <li>Work with Brand and Design to ensure site was consistent</li>
-                    <li>Integrate with 3rd party services through PHP or JavaScript</li>
-                    <li>Handed off to junior level staff with continuous education and support</li>
-                </ul>
-            </li>
-        </ul>
-        <p>Cloud Team Management</p>
-        <ul>
-            <li>Lead a team of six local employees and two offshore teams. One in India and one in Spain.</li>
-            <li>Run team Agile process:
-                <ul>
-                    <li>Daily scrum meetings</li>
-                    <li>Bi-weekly team demos and retrospectives</li>
-                    <li>Check in with team members to make sure they are doing ok and happy</li>
-                </ul>
-            </li>
-        </ul>
-        <p>Cloud Software Projects</p>
-        <ul>
-            <li>Configure and maintain multiple Docker instance setup for developer environment to match production
-                servers.
-                <ul>
-                    <li>Kafka, Zookeeper, Cassandra, Mongo, AWS DynamoDB, MySQL all with their own Docker instance.</li>
-                </ul>
-            <li>Created initial network Topology map for device management website using D3</li>
-            <li>Initially helped manage AWS deployments before a dedicated SRE was hired.</li>
-        </ul>
+        <p>At Mimosa, I am the company's go-to engineer for UI/front end architecture and development. One of my
+            proudest achievements is taking the company's flagship product to fruition. I received an award for "Best UI
+            in the Industry", voted on by Wireless ISPs, for the first product Mimosa released.</p>
+        <p>&nbsp;</p>
+        <div class="description">
 
-        <p>Resident Web Technology Mentor:</p>
-        <ul>
-            <li>Constantly educating co-workers about how the web works (HTTP, Native Javascript, current and future
-                technologies)
-            </li>
-            <li>Offer architecture overviews company wide</li>
-        </ul>
-        <p>Workflow Advocate:</p>
-        <ul>
-            <li>Manage JIRA for our company</li>
-            <li>Lead push for better Git Workflow and code collaboration
-                <ul>
-                    <li>Researched Git collaboration tools like FishEye, Crucible, GitLab, Stash</li>
-                    <li>Proposed and company adopted Stash with Bamboo for continuous builds</li>
-                    <li>Lead adoption of Agile methodolgies in own team as well as held training meetings for Senior
-                        Management for their own teams
-                    </li>
-                </ul>
-            </li>
-        </ul>
+            <div class="date">2014 - present</div>
+            <p>Architect UI for all hardware products:</p>
+            <ul>
+                <li>Sole UI/JavaScript developer for all hardware products</li>
+                <li>Work with hardware architect to design hardware products from scratch</li>
+                <li>Lead UI architecture discussions for every new hardware product</li>
+                <li>Engineer UI leveraging AngularJS, SocketIO and Bootstrap</li>
+                <li>Write backend server in Python using the Python Flask server that connects with platform's custom DBUS
+                    IPC running BusyBox
+                </li>
+                <li>Design Flask server with SocketIO module to emulate a NodeJS SocketIO backend, which interfaces with RRD
+                    to pull historical data and send to browser through WebSockets
+                </li>
+                <li>Maintain custom JavaScript framework using jQuery/Bootstrap for legacy products</li>
+                <li>Use Gulp with Bamboo to generate production builds of UI with Bower for dependency management</li>
+                <li>Create a wireless spectrum analyzer using JavaScript canvas and pixi.js that is used across all
+                    products, prototype future version using ThreeJS/WebGL
+                </li>
+                <li>Work with Brand and Design team to ensure all products are consistent</li>
+            </ul>
+            <p>Manage the Cloud Team:</p>
+            <ul>
+                <li>Lead a team of six local employees and two offshore teams - one in India and one in Spain</li>
+                <li>Run team Agile process by holding scrum meetings, facilitating team demos and retrospectives, and
+                    checking in with team members to make sure they are happy
+                </li>
+                <li>Created the corporate website using CMS Made Simple, and handed it off to junior level staff with
+                    continuous education and support
+                </li>
+            </ul>
+            <p>Manage cloud software projects:</p>
+            <ul>
+                <li>Configure and maintain multiple Docker instance setup for developer environment to match production
+                    servers - Zookeeper, Cassandra, Mongo, AWS DynamoDB, MySQL - each has its own Docker instance
+                </li>
+                <li>Create initial network topology map for network management website using D3</li>
+                <li>Help manage AWS infrastructure and deployments</li>
+            </ul>
+
+            <p>Resident mentor on web technology</p>
+            <ul>
+                <li>Continuously educating inter- and intra-team members about how the web works (HTTP, Native Javascript,
+                    current and future
+                    technologies)
+                </li>
+                <li>Give company-wide talks on web architectural overviews</li>
+            </ul>
+            <p>Advocate for workflow:</p>
+            <ul>
+                <li>Manage and convince our company to use JIRA to increase efficiency and collaboration</li>
+                <li>Lead push for better Git workflow and code collaboration by implementing tools like FishEye, Crucible,
+                    GitLab, Stash
+                </li>
+                <li>Propose to the company to adopt Stash with Bamboo for continuous builds</li>
+                <li>Lead adoption of Agile methodologies in own team as well as hold trainings for senior management for
+                    their teams
+                </li>
+            </ul>
+        </div>
     </div>
     <div class="item">
         <h3>Bill.com</h3>
         <h4>Senior UX Developer</h4>
         <div class="date">2011 - 2014</div>
+        <p>At Bill.com, my role was multi-faceted. Because my knowledge is not limited to front end, but backend (i.e.
+            application and database layers, networking, and security) as well, I was able to contribute valuable input
+            to the application as a whole. I was also an expert with a wide assortment of Nerf weapons, as required by
+            our company's culture.</p>
+        <p>&nbsp;</p>
         <div class="description">
-            <p>Lead the charge for improved customer experience and culture shift towards happier customers:</p>
+            <p>Led the charge for improved customer experience and culture shift towards happier customers:</p>
             <ul>
-                <li>JavaScript/jQuery for all front end interaction</li>
-                <li>CSS3 for presentation</li>
-                <li>MySQL database drives all prototypes</li>
-                <li>Product implementation in proprietary JAVA framework with Oracle DB</li>
-                <li>Agile methodologies were used when possible</li>
+                <li>Implemented JavaScript/jQuery for all front end interaction</li>
+                <li>Used CSS3 for presentation</li>
+                <li>Used MySQL database for all prototypes</li>
+                <li>Implemented proprietary JAVA framework with Oracle database</li>
+                <li>Implemented Agile methodologies where possible</li>
             </ul>
             <p>Created feature prototypes:</p>
             <ul>
-                <li>Cash forecast powered by Highcharts JS graphing library</li>
+                <li>Created cash forecast powered by Highcharts JS graphing library</li>
                 <li>Prototyped dynamic table system with selectable columns, filters, pagination</li>
                 <li>Prototyped a new Document Inbox with improved usability</li>
             </ul>
-            <p>Implemented new features in product:</p>
+            <p>Implemented new features in our product:</p>
             <ul>
                 <li>Implemented new Document Inbox in the Java Framework with JSON services</li>
-                <li>Created new modal system using HTML 5 technology</li>
-                <li>Created a HTML5 drag/drop system for sorting elements across the system (Bill approval, changing
-                    homepage order, etc...)
-                </li>
-                <li>Rebranded the entire product for various Partners (White label)</li>
-                <li>Customer feedback form</li>
-                <li>Cash flow projections based on money in and out</li>
+                <li>Executed new modal system using HTML 5 technology</li>
+                <li>Created a HTML5 drag/drop system for sorting elements across the system</li>
+                <li>Re-branded the entire product for various partners (i.e. white label)</li>
+                <li>Implemented customer feedback form</li>
+                <li>Implemented cash flow projections based on money in and out</li>
             </ul>
-            <p>Supported and Managed corporate website:</p>
+            <p>Supported and managed corporate website:</p>
             <ul>
                 <li>Managed marketing website from a technical and development stand point</li>
                 <li>Interacted with marketing and other teams for content and projects</li>
-                <li>Oversaw transition to a Drupal backend</li>
+                <li>Lead transition to a Drupal backend</li>
                 <li>Managed various contractors who took over responsibilities of marketing site</li>
             </ul>
-
-            <p>Expert shot with a wide assortment of Nerf weapons</p>
         </div>
     </div>
     <div class="item">
         <h3>Coulomb/Chargepoint</h3>
         <h4>Senior Front End Developer</h4>
         <div class="date">2011 - 2012</div>
+        <p>At Coulomb, I was the pioneer for user experience for the next generation charging stations.</p>
+        <p>&nbsp;</p>
         <div class="description">
-            <p>Led the drive for a more delightful and usable experience for customers.</p>
+            <p>Led the drive for a more delightful and usable experience for customers:</p>
             <ul>
                 <li>Worked with a third party agency on user flows for car charging stations</li>
                 <li>Created working prototypes from static image mockups from the agency</li>
                 <li>Implemented basic working features from prototypes in Code Igniter framework</li>
-                <li>MySQL database for prototypes</li>
+                <li>Used MySQL database for prototypes</li>
                 <li>Created interactive map of charging stations to be used in Nissan Leaf cars</li>
             </ul>
         </div>
     </div>
     <div class="item">
-        <h3>Livescribe, Inc</h3>
-        <h4>Web Developer</h4>
-        <div class="date">2011 - 2012</div>
-        <div class="description">
-            <p>Main developer for all things web related.</p>
-            <ul>
-                <li>Wrote automated Subversion branching scripts in Python</li>
-                <li>Managed corporate website</li>
-                <li>Maintained application store for pens</li>
-                <li>Used Agile methodologies company wide</li>
-            </ul>
-        </div>
-    </div>
-    <div class="item">
-        <h3>2Wire, Inc (Acquired by Pace, PLC)</h3>
+        <h3>2Wire, Inc. (Acquired by Pace, PLC)</h3>
         <h4>Webmaster</h4>
         <div class="date">2006 – 2011</div>
+        <p>At 2Wire, I worked intimately with the Marketing Team to help convey to our customers that our product was
+            best-in-class. I was the liaison between technology and business, and translated business needs onto our
+            website and custom tools.</p>
+        <p>&nbsp;</p>
         <div class="description">
             <p>Created all 2Wire websites, internal and external, from scratch using Linux, Apache, MySQL and PHP:</p>
             <ul>
@@ -441,49 +424,33 @@
             </ul>
             <p>Created data management and collaboration tools:</p>
             <ul>
-                <li>Enabled separate content for individual customer portals
-                    <ul>
-                        <li>Login specific authentication and permissions to prevent customers from accessing other
-                            customer portals.
-                        </li>
-                    </ul>
-                </li>
+                <li>Created a partner website that enabled customer portals that separated content for individual partners</li>
                 <li>Incorporated project collaboration tools</li>
                 <li>Provided product asset information on a per customer basis</li>
                 <li>Facilitated file upload and downloads between 2Wire and Customers</li>
                 <li>Implemented discussion forums for customers</li>
-                <li>Developed event support software:
-                    <ul>
-                        <li>Requests to initiate meetings</li>
-                        <li>Registration of attendees</li>
-                        <li>Travel coordination of each attendee, with real-time flight information provided by travel
-                            agency
-                        </li>
-                        <li>Attendee profiling (Shirt sizes, food preferences, etc)</li>
-                        <li>Dinner Reservation requests</li>
-                    </ul>
-                </li>
+                <li>Developed event support software</li>
             </ul>
             <p>Maintained all hardware infrastructure for web properties:</p>
             <ul>
                 <li>Used Google Analytics for website profiling</li>
                 <li>Monitored server health with Xymon/Hobbit</li>
                 <li>Various server upgrades and replacements</li>
-                <li>Kept server services (Apache, MySQL, etc) patched up to comply with Security Audits</li>
+                <li>Kept server services (Apache, MySQL, etc) patched up to comply with security audits</li>
             </ul>
             <p>Reorganized websites and environment:</p>
             <ul>
                 <li>Migrated servers from RHEL 3/4 to Ubuntu Server inside VM Clusters</li>
                 <li>Created development, staging, and production environments for each website</li>
                 <li>Initiated and maintained Subversion code management, and bug-tracking through Trac</li>
-                <li>Implemented rebranding three times</li>
+                <li>Implemented rebranding three times to support business needs</li>
             </ul>
             <p>Supported on-site operations for yearly CES event:</p>
             <ul>
                 <li>Coordinated event schedule and keep customer meetings on time</li>
                 <li>Created product demos using JQuery and HTML</li>
-                <li>Developed ActionScript libraries to enabled interaction with flash to manage devices in the home
-                    (Lights, power adapters, web cams, etc)
+                <li>Developed ActionScript libraries to enable interaction with Flash to manage devices in the home
+                    (lights, power adapters, web cams, etc.)
                 </li>
             </ul>
         </div>
@@ -492,8 +459,11 @@
         <h3>Maildance</h3>
         <h4>Application Engineer</h4>
         <div class="date">2004 - 2006</div>
+        <p>At Maildance, my partner and I created a web-based email application with advanced features similar to
+            today's gmail. </p>
+        <p>&nbsp;</p>
         <div class="description">
-            <p>Created web based Email interface with a MySQL/Exim backend:</p>
+            <p>Created web-based email interface with a MySQL/Exim backend:</p>
             <ul>
                 <li>Compose, edit, delete emails web client through IMAP and PHP</li>
                 <li>Spam management functionality</li>
@@ -507,6 +477,9 @@
         <h3>Cisco Systems</h3>
         <h4>Web Content Developer</h4>
         <div class="date">2000 - 2001</div>
+        <p>At Cisco, by managing our web presence, I kept the content up-to-date so end-users would always have the most
+            accurate data.</p>
+        <p>&nbsp;</p>
         <div class="description">
             <p>Managed Business Unit's internal and external web presence:</p>
             <ul>
@@ -545,11 +518,11 @@
             </tr>
             <tr>
                 <td>JavaScript</td>
-                <td>8+ Years</td>
+                <td>9+ Years</td>
             </tr>
             <tr>
                 <td>Angular</td>
-                <td>6 Months</td>
+                <td>2 Years</td>
             </tr>
             <tr>
                 <td>NodeJs</td>
@@ -585,28 +558,14 @@
 
         <h3>Software:</h3>
 
-        <p>Expert: </p>
         <ul>
-            <li>IntelliJ - IDE</li>
-            <li>Eclipse - IDE</li>
-            <li>Dreamweaver - IDE</li>
-            <li>NetBeans - IDE</li>
+            <li>IDEs - IntelliJ, NetBeans, Dreamweaver, Sublime Text</li>
             <li>MySQL Workbench - DB Design &amp; Management</li>
-            <li>Google Analytics - Tracking</li>
-            <li>Reinvigorate - Tracking</li>
-            <li>ChartBeat - Tracking</li>
-        </ul>
-        <p>Proficient:</p>
-        <ul>
             <li>Photoshop</li>
-            <li>Fireworks</li>
-            <li>Microsoft Office Suite</li>
-        </ul>
-        <p>Fluent: </p>
-        <ul>
+            <li>Microsoft Office</li>
             <li>Debian/Linux server management</li>
-            <li> Windows XP/Vista/7</li>
-            <li> Mac OS</li>
+            <li>Windows XP/Vista/7</li>
+            <li>Mac OS</li>
         </ul>
         <h3>Revision Control Systems</h3>
         <ul>
@@ -616,7 +575,6 @@
         </ul>
     </div>
     <div class="clear"></div>
-
 </div>
 <div class="section">
     <h2>Education</h2>
